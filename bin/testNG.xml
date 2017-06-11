@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+	<test name="Login">
+		<classes>
+			<class name="sanity.LoginTest" />
+			<class name="sanity.RegsByCustId" />
+			<class name="sanity.RegsBySourSys" />
+			<class name="sanity.GSTRegisMaster" />
+			<class name="sanity.LogoutTest" />
+		</classes>
+	</test>
+
+</suite>

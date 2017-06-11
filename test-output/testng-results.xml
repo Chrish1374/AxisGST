@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="32812" started-at="2017-06-11T17:58:06Z" finished-at="2017-06-11T17:58:39Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="32812" started-at="2017-06-11T17:58:06Z" finished-at="2017-06-11T17:58:39Z">
+      <class name="sanity.RegsByCustId">
+        <test-method status="PASS" signature="regsByCustomerId()[pri:0, instance:sanity.RegsByCustId@2ef5e5e3]" name="regsByCustomerId" duration-ms="3064" started-at="2017-06-11T10:58:21Z" finished-at="2017-06-11T10:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regsByCustomerId -->
+      </class> <!-- sanity.RegsByCustId -->
+      <class name="sanity.RegsBySourSys">
+        <test-method status="PASS" signature="regsBySourceSys()[pri:0, instance:sanity.RegsBySourSys@36d4b5c]" name="regsBySourceSys" duration-ms="3745" started-at="2017-06-11T10:58:24Z" finished-at="2017-06-11T10:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regsBySourceSys -->
+      </class> <!-- sanity.RegsBySourSys -->
+      <class name="sanity.LogoutTest">
+        <test-method status="PASS" signature="Test()[pri:0, instance:sanity.LogoutTest@51efea79]" name="Test" duration-ms="1197" started-at="2017-06-11T10:58:38Z" finished-at="2017-06-11T10:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- sanity.LogoutTest -->
+      <class name="sanity.GSTRegisMaster">
+        <test-method status="PASS" signature="gstResgMaster()[pri:0, instance:sanity.GSTRegisMaster@6d00a15d]" name="gstResgMaster" duration-ms="9799" started-at="2017-06-11T10:58:28Z" finished-at="2017-06-11T10:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gstResgMaster -->
+      </class> <!-- sanity.GSTRegisMaster -->
+      <class name="sanity.LoginTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:sanity.LoginTest@643b1d11]" name="login" is-config="true" duration-ms="14943" started-at="2017-06-11T10:58:06Z" finished-at="2017-06-11T10:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="TestCase()[pri:0, instance:sanity.LoginTest@643b1d11]" name="TestCase" duration-ms="18" started-at="2017-06-11T10:58:21Z" finished-at="2017-06-11T10:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase -->
+      </class> <!-- sanity.LoginTest -->
+    </test> <!-- Login -->
+  </suite> <!-- TestAll -->
+</testng-results>
